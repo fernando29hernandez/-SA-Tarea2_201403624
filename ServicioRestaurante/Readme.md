@@ -5,6 +5,12 @@
 
   - Peticion
 
+## Metodos utilizados en este servicio
+  - app.use
+  - app.get
+  - app.post
+  - app.listen
+
 ## Variables utilizadas en este servicio
 
  - respuesta
@@ -79,7 +85,15 @@ class peticion
 
 }
 ```
+## Poner en escucha el servicio
 
+```sh 
+
+// RUN SERVE EN EL PUERTO 3000
+app.listen(3000, function () {
+    console.log('App escuchando en el puerto 3000!');
+});
+```
 ## RUN APP
 
 Para correr esta aplicación en una consola(cmd) o terminal en caso de usar linux:
