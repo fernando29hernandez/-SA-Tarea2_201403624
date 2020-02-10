@@ -12,4 +12,4 @@ Lenguajes Utilizados:
 - Servicio de entrega por el repartidor(Python con Flask).
 
 # Video Demo
-    (https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+   [![Ver en youtube](https://img.youtube.com/vi/MnxKbHRv-tc/0.jpg)](https://youtu.be/MnxKbHRv-tc)
