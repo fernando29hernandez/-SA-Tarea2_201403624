@@ -2,8 +2,8 @@
     
 ## Funciones en Servicio de Solicitud de Comida
 
-  - agregarplato
-  - enviarpedido 
+  - agregar_plato
+  - enviar_pedido 
 
 ## Variables utilizadas en este servicio
 

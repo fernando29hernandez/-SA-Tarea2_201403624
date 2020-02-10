@@ -22,7 +22,7 @@ app.post('/', function (req, res) {
     console.log("El pedido es : ");
     console.log(req.body);
     var peticion = require('./clases/peticion.js');//import de la clase peticion
-    let peticion_entrega = new  peticion();//creacion de objeto
+    let peticion_entrega = new peticion();//creacion de objeto
     /**
      * ASUMO QUE EL RESTAURANTE YA PREPARO LA COMIDA Y POR ESO PASO INMEDITAMENTE A NOTIFICAR AL REPARTIDOR
      */
