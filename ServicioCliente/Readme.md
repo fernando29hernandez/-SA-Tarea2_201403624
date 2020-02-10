@@ -74,3 +74,7 @@ Por medio de una funcion asincrona se hace la peticion al servicio de restaurant
         });
     }
 ```
+
+# RUN APP 
+
+Para correr esta aplicacion solo se tiene que abrir el archivo Index.html en el navegador de preferencia y ya se podra interactuar con el servicio
