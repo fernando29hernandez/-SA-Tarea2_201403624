@@ -76,7 +76,7 @@
         // CREACION DE LA PETICION POR MEDIO DE POST AL SERVICIO DEL RESTAURANTE
         let body_request = JSON.stringify(orden_cliente);
         console.log(body_request);
-        await fetch("http://localhost:3000", {//ip del servicio del restaurante
+        await fetch("http://localhost:3001/Pedido_Restaurante", {//ip del ESB
             method: 'POST',// envio por metodo post
             headers: {// headers que indican que enviare un json en el body
                 'Content-Type': 'application/json',

@@ -14,6 +14,7 @@ app.use(express.json());
 app.get('/', function (req, res) {
     res.send('ok');
 });
+
 /**
  * ENDPOINT DE RECEPCION DE ORDENES DEL CLIENTE
  */
@@ -27,7 +28,7 @@ app.post('/', function (req, res) {
      * ASUMO QUE EL RESTAURANTE YA PREPARO LA COMIDA Y POR ESO PASO INMEDITAMENTE A NOTIFICAR AL REPARTIDOR
      */
     peticion_entrega.peticion_post(req.body);//envio de parametro el body de la peticion que le llego al restaurante
-    res.send('{\"status\":\"repartidor enviado\""}');//respuesta
+    res.send('{\"status\":\"pedido recibido\""}');//respuesta
 });
 // RUN SERVE EN EL PUERTO 3000
 app.listen(3000, function () {
