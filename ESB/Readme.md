@@ -2,7 +2,7 @@
 # ESB(Orquestador)
 
 
-## Metodos utilizados en este servicio
+## Metodos utilizados en este servicio por parte del API
   - app.use
   - app.get
   - app.post
@@ -12,7 +12,8 @@
 
  - respuesta
  - objecto_a_enviar
- - peticion_entrega
+ - peticion_ESB_Cliente
+ - peticion_ESB_Restaurante
 
 ## Recepcion de pedido del cliente
 Por medio del servidor de express con un endpoint de tipo post 
@@ -113,7 +114,7 @@ Por medio del servidor de express con un endpoint de tipo post
     }
 
 ```
-## Poner en escucha el servicio
+## Colocar en escucha el servicio
 
 ```sh 
 

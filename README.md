@@ -13,5 +13,10 @@ Lenguajes Utilizados:
 - Servicio de entrega por el repartidor(Python con Flask).
 - Orquestador de los Servicios
 
+# Puertos en uso
+- ESB(Puerto 3001)
+- Restaurante(Puerto 3000)
+- Repartidor(Puerto 5000)
+- Cliente/Cosumidor no cuenta con uno ya que a este momento no lo necesita
 # Video Demo
     (https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
