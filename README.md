@@ -19,4 +19,4 @@ Lenguajes Utilizados:
 - Repartidor(Puerto 5000)
 - Cliente/Cosumidor no cuenta con uno ya que a este momento no lo necesita
 # Video Demo
-    (https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+   [![Ver en youtube](https://img.youtube.com/vi/MnxKbHRv-tc/0.jpg)](https://youtu.be/MnxKbHRv-tc)
