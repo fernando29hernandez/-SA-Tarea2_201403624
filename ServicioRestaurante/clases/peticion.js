@@ -34,7 +34,7 @@ module.exports = class peticion {
             }
             this.setear_respuesta(body);// extraigo la respuesta
         });
-        
+
     }
     /**
      * 

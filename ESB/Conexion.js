@@ -31,9 +31,10 @@ module.exports = class peticion_ESB {
             if (err) {
                 return console.log(err);
             }
-            this.setear_respuesta(body);// extraigo la respuesta
+            this.respuesta = body;
+            console.log(this.respuesta);// extraigo la respuesta
         });
-        
+
     }
     /**
      * 
@@ -43,7 +44,7 @@ module.exports = class peticion_ESB {
          * se declara un elementro de tipo request 
          */
         const request = require('request');
-        const body_request =objeto_a_enviar;// creo un object para el body de la peticion
+        const body_request = objeto_a_enviar;// creo un object para el body de la peticion
         const options = {
             url: 'http://127.0.0.1:5000/',//ip del servicio de repartidores
             json: true,// si enviare json
@@ -54,11 +55,11 @@ module.exports = class peticion_ESB {
             if (err) {
                 return console.log(err);
             }
-            this.respuesta = respuesta_recibida;
+            this.respuesta = body;
             console.log(this.respuesta);// extraigo la respuesta
         });
-        
+
     }
-    
+
 
 }
