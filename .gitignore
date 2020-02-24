@@ -1,0 +1,23 @@
+# NodeJS specific #
+coverage/
+node_modules/
+npm-debug.log
+package-lock.json
+test/*.log
+
+*/coverage/
+*/node_modules/
+*/npm-debug.log
+*/package-lock.json
+*/test/*.log
+
+
+#python
+*.pyc
+*/*.pyc
+
+
+#general
+
+/dist
+*/dist
