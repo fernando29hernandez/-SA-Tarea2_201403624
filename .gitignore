@@ -5,19 +5,12 @@ npm-debug.log
 package-lock.json
 test/*.log
 
-*/coverage/
-*/node_modules/
-*/npm-debug.log
-*/package-lock.json
-*/test/*.log
-
+*/node_modules/*
 
 #python
-*.pyc
-*/*.pyc
 
+*.pyc
 
 #general
 
 /dist
-*/dist
