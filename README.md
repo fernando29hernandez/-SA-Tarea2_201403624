@@ -1,4 +1,4 @@
-# Tarea 3 - Software Avanzado - Primer Semestre 2020 
+# Tarea 4 - Software Avanzado - Primer Semestre 2020 
 
 Lenguajes Utilizados:
   - Javascript
@@ -18,5 +18,8 @@ Lenguajes Utilizados:
 - Restaurante(Puerto 3000)
 - Repartidor(Puerto 5000)
 - Cliente/Cosumidor no cuenta con uno ya que a este momento no lo necesita
+
+# Constructor de Artefactos
+- Gulp(NodeJS)
 # Video Demo
    [![Ver en youtube](https://img.youtube.com/vi/fUz8jFMq-m4/0.jpg)](https://youtu.be/fUz8jFMq-m4)

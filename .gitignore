@@ -13,4 +13,4 @@ test/*.log
 
 #general
 
-/dist
+*/dist
