@@ -20,6 +20,18 @@ Lenguajes Utilizados:
 - Cliente/Cosumidor no cuenta con uno ya que a este momento no lo necesita
 
 # Constructor de Artefactos
+
 - Gulp(NodeJS)
-# Video Demo
+
+```sh 
+gulp Nombretarea
+```
+
+- distutils(Python 3)
+
+```sh 
+python setup.py sdist
+```
+
+# Video Demo parte 3
    [![Ver en youtube](https://img.youtube.com/vi/fUz8jFMq-m4/0.jpg)](https://youtu.be/fUz8jFMq-m4)
