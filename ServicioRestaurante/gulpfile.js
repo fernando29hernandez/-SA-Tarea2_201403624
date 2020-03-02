@@ -10,3 +10,5 @@ gulp.task('EmpaquetarRestaurante', function() {
     .pipe(zip('Servicio_Restaurante.zip'))// nombre del zip
     .pipe(gulp.dest('dist'));//ubicacion del zip
 });
+
+gulp.task('default', ['EmpaquetarRestaurante'])

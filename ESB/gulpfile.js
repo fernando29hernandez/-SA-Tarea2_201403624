@@ -11,9 +11,15 @@ gulp.task('EmpaquetarESB', function() {
     .pipe(gulp.dest('dist'));//ubicacion del zip
 });
 
+gulp.task('EmpaquetarTodo', function() {//FUNCION UTILIZADA PARA EMPAQUETAR TODO LOS SERVICIOS EN UN ZIP 
+  return gulp.src('../*/src/*')//carpeta de la cual se extraera el codigo
+    .pipe(zip('Servicios.zip'))// nombre del zip
+    .pipe(gulp.dest('dist'));//ubicacion del zip
+});
+
 gulp.task('html', function(cb){
   let texto = '<p>201403624 - Fernando Hernandez</p><br><a download="esb.zip" href="esb.zip">Enlace para descargar el build recien construido</a>';
   fs.writeFile('dist/index.html',texto, cb);
 });
 
-gulp.task('construir', gulp.series('EmpaquetarESB', 'html'))
+gulp.task('default', gulp.series('EmpaquetarESB', 'html'))//sustituir la funcion default por una lista de funciones
