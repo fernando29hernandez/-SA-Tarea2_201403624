@@ -1,5 +1,7 @@
 # Tarea 5 - Software Avanzado - Primer Semestre 2020 
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b678cdf9-7485-4647-bf07-0a0d4faeaf82/deploy-status)](https://app.netlify.com/sites/youthful-leakey-5d4133/deploys)
+
 Lenguajes Utilizados:
   - Javascript
   - Ajax
@@ -43,7 +45,8 @@ Deploy log visibility: Logs are public
 ```
 
 # Para ver el deploy puede visitar 
- [![Despligue de los artefactos]](Link)
+- [Log de Deploy](https://app.netlify.com/sites/youthful-leakey-5d4133/deploys/5e5d7014f40135000845fe58)
+- [Publicacion de los artefactos](https://youthful-leakey-5d4133.netlify.com/)
 
 
 # Video Demo Tarea 3
